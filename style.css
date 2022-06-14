@@ -1,1 +1,63 @@
-#style
+body {
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.navLinks {
+    margin: 5px auto;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.centerContainer {
+    margin: 10px auto;
+    width: 1024px;
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    line-height: 1.25;
+    background-color: #c0b3c0c5;
+    box-shadow: 20px 10px 40px -1px rgba(65, 37, 64, 0.5);
+}
+
+.allColumns  {
+    display: flex;
+}
+
+.leftColumns {
+    width: 30%;
+    color: #ffebffc5;
+    background-color: #442044c5;
+    padding: 30px;
+}
+
+.avatar {
+    margin-bottom: 5px;
+    border-radius: 15%;
+}
+
+.mainName {
+    font-size: 35px;
+    text-align: center;
+}
+
+.profession {
+    font-size: 18px;
+    text-align: center
+}
+
+.rightColumn {
+    width: 80%;
+    padding: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    width: 95%;
+}
+
