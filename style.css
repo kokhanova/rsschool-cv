@@ -1,6 +1,6 @@
 body {
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #321232;
 }
 
 .navLinks {
@@ -8,17 +8,59 @@ body {
     padding-top: 5px;
     display: flex;
     justify-content: space-around;
+    width: 95%;
 }
 
+nav > ul {
+    list-style: none; 
+    margin: 0;
+    padding-left: 0;
+    text-align: center; 
+}
 
+nav > ul > li {
+    display:inline-block;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #2e182ec5;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 5px 15px;
+    font-size: 120%;
+    font-family: "Cabin", sans-serif;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 10px;
+    background: #b9b9b9 radial-gradient(circle at 0 0, #ffffffa6, #ffffff59);
+    box-shadow:
+    inset #00000080 -3px -3px 8px,
+    inset #ffffffe6 3px 3px 8px,
+    #000000cc 3px 3px 8px -3px;
+}
+
+.navLinksItem:hover {
+    color: #ffebffc5;
+    background: #985798c5 radial-gradient(circle at 0 0, #af76afc5, #2e132ec5);
+    box-shadow:
+    inset #00000080 -3px -3px 8px,
+    inset #985798c5 3px 3px 8px,
+    #000000cc 3px 3px 8px -3px;
+}
 .centerContainer {
     margin: 10px auto;
     width: 1024px;
     font-family: "Cabin", sans-serif;
     font-size: 14px;
     line-height: 1.25;
-    background-color: #c0b3c0c5;
-    box-shadow: 20px 10px 40px -1px rgba(65, 37, 64, 0.5);
+    border-radius: 10px;
+    background: #646464 radial-gradient(circle at 0 0, #ffffffa6, #ffffff59);
+    box-shadow:
+    inset #00000080 -3px -3px 8px,
+    inset #ffffffe6 3px 3px 8px,
+    #000000cc 3px 3px 8px -3px;
 }
 
 .allColumns  {
@@ -30,21 +72,63 @@ body {
     color: #ffebffc5;
     background-color: #442044c5;
     padding: 30px;
+    border-radius: 10px;
+    background: #985798c5 radial-gradient(circle at 0 0, #af76afc5, #2e132ec5);
+    box-shadow:
+    inset #00000080 -3px -3px 8px,
+    inset #985798c5 3px 3px 8px,
+    #000000cc 3px 3px 8px -3px;
+}
+
+.hr-shadow {
+	margin: 20px 0;
+	padding: 0;
+	height: 10px;
+	border: none;
+	border-top: 1.5px solid #2e132ec5;
+	box-shadow: 0 10px 10px -10px #dcaddcc5 inset;
 }
 
 .avatar {
     margin-bottom: 5px;
     border-radius: 15%;
+    padding: 15px;
+    border: 2px solid #442044c5;
 }
 
 .mainName {
     font-size: 35px;
     text-align: center;
+    font-family: "Monotype Corsiva", sans-serif;
+    font-weight: 500;
+    line-height: 1px;
 }
 
 .profession {
     font-size: 18px;
-    text-align: center
+    text-align: center;
+    color: #2e132ec5;
+}
+
+.contacts > h3 {
+    font-size: 25px;
+    font-family: "Monotype Corsiva", sans-serif;
+    font-weight: 500;
+    
+}
+
+.skills > h3 {
+    font-size: 25px;
+    font-family: "Monotype Corsiva", sans-serif;
+    font-weight: 500;
+    
+}
+
+.languages > h3 {
+    font-size: 25px;
+    font-family: "Monotype Corsiva", sans-serif;
+    font-weight: 500;
+    
 }
 
 .rightColumn {
@@ -52,12 +136,35 @@ body {
     padding: 40px;
 }
 
-footer {
-    display: flex;
-    justify-content: space-around;
+.subHeader > h3 {
+    font-size: 25px;
+    font-family: "Monotype Corsiva", sans-serif;
+    font-weight: 800;
+    text-align: center;
 }
 
-nav {
-    width: 95%;
+
+footer {
+    display: flex;
+    margin: 5px auto;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+    font-family: "Cabin", sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    border-radius: 10px;
+    background: #646464 radial-gradient(circle at 0 0, #ffffffa6, #ffffff59);
+    box-shadow:
+    inset #00000080 -3px -3px 8px,
+    inset #ffffffe6 3px 3px 8px,
+    #000000cc 3px 3px 8px -3px;
 }
+
+footer > a > img {
+    margin-top: 10px;
+}
+
+
 
